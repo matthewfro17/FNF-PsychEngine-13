@@ -1129,6 +1129,7 @@ class PlayState extends MusicBeatState
 	
 		healthBarBG.sprTracker = healthBar;
 
+		var textYPos:Float = healthBarBG.y + 50;
 		var randomThingy:Int = FlxG.random.int(0, 21);
 		var engineName:String = 'stupid';
 		switch(randomThingy)
