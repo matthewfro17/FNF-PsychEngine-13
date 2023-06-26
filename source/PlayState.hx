@@ -1187,7 +1187,7 @@ class PlayState extends MusicBeatState
 		kadeEngineWatermark.antialiasing = true;
 		add(kadeEngineWatermark);
 
-		kadeEngineWatermark2 = new FlxText(4, textYPos + -20, 0, engineName + "Engine (KE v1.2)", 16);
+		kadeEngineWatermark2 = new FlxText(4, textYPos + -20, 0, engineName + " (Psych Engine v6.3)", 16);
                 kadeEngineWatermark2.setFormat(font, 16 * fontScaler, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		kadeEngineWatermark2.scrollFactor.set();
 		kadeEngineWatermark2.borderSize = 1.25 * fontScaler;
